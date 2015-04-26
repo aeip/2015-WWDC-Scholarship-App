@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		273F26821AE884C80043AFAE /* AppPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F26811AE884C80043AFAE /* AppPhotoViewController.swift */; };
+		273F26851AE986520043AFAE /* ElevationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 273F26841AE986520043AFAE /* ElevationViewController.m */; };
+		273F26871AE9BABF0043AFAE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F26861AE9BABF0043AFAE /* MapViewController.swift */; };
+		273F26891AE9E0A90043AFAE /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F26881AE9E0A80043AFAE /* PreviewViewController.swift */; };
 		2788C2A51ADD7B1A00CC2707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2A41ADD7B1A00CC2707 /* main.m */; };
 		2788C2A81ADD7B1A00CC2707 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2A71ADD7B1A00CC2707 /* AppDelegate.m */; };
 		2788C2AB1ADD7B1A00CC2707 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2AA1ADD7B1A00CC2707 /* ViewController.m */; };
@@ -14,6 +18,21 @@
 		2788C2B01ADD7B1A00CC2707 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2788C2AF1ADD7B1A00CC2707 /* Images.xcassets */; };
 		2788C2B31ADD7B1A00CC2707 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2788C2B11ADD7B1A00CC2707 /* LaunchScreen.xib */; };
 		2788C2BF1ADD7B1B00CC2707 /* Stasys_MeclazckeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2BE1ADD7B1B00CC2707 /* Stasys_MeclazckeTests.m */; };
+		2788C2CA1ADD9C4A00CC2707 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2C91ADD9C4A00CC2707 /* PageViewController.swift */; };
+		2788C2D51ADD9CE600CC2707 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2CD1ADD9CE600CC2707 /* ALView+PureLayout.m */; };
+		2788C2D61ADD9CE600CC2707 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2CF1ADD9CE600CC2707 /* NSArray+PureLayout.m */; };
+		2788C2D71ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2D11ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.m */; };
+		2788C2E21ADD9E8600CC2707 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2E11ADD9E8600CC2707 /* AboutViewController.swift */; };
+		2788C2E41ADD9E9100CC2707 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2E31ADD9E9100CC2707 /* FirstViewController.swift */; };
+		2788C2E61ADD9E9E00CC2707 /* EducationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788C2E51ADD9E9E00CC2707 /* EducationViewController.swift */; };
+		2788C4311AE0760D00CC2707 /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C42E1AE0760D00CC2707 /* FBShimmeringLayer.m */; };
+		2788C4321AE0760D00CC2707 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2788C4301AE0760D00CC2707 /* FBShimmeringView.m */; };
+		2788C4981AE48E3D00CC2707 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2788C4971AE48E3D00CC2707 /* SCLAlertView.swift */; };
+		27BC837F1AE568FB005F5112 /* WWDCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC837E1AE568FB005F5112 /* WWDCViewController.swift */; };
+		27BC83821AE5A039005F5112 /* AppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BC83811AE5A039005F5112 /* AppsViewController.m */; };
+		27BC83851AE5AC80005F5112 /* AppsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BC83841AE5AC80005F5112 /* AppsTableViewCell.m */; };
+		27BC83881AE61686005F5112 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27BC83871AE61686005F5112 /* DetailViewController.m */; };
+		27BC838A1AE6B537005F5112 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BC83891AE6B537005F5112 /* ScoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		273F26811AE884C80043AFAE /* AppPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppPhotoViewController.swift; sourceTree = "<group>"; };
+		273F26831AE986520043AFAE /* ElevationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevationViewController.h; sourceTree = "<group>"; };
+		273F26841AE986520043AFAE /* ElevationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevationViewController.m; sourceTree = "<group>"; };
+		273F26861AE9BABF0043AFAE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		273F26881AE9E0A80043AFAE /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 		2788C29F1ADD7B1A00CC2707 /* Stasys Meclazcke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stasys Meclazcke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2788C2A31ADD7B1A00CC2707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2788C2A41ADD7B1A00CC2707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +64,35 @@
 		2788C2B81ADD7B1B00CC2707 /* Stasys MeclazckeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stasys MeclazckeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2788C2BD1ADD7B1B00CC2707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2788C2BE1ADD7B1B00CC2707 /* Stasys_MeclazckeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stasys_MeclazckeTests.m; sourceTree = "<group>"; };
+		2788C2C81ADD9C4900CC2707 /* Stasys Meclazcke-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stasys Meclazcke-Bridging-Header.h"; sourceTree = "<group>"; };
+		2788C2C91ADD9C4A00CC2707 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		2788C2CC1ADD9CE600CC2707 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		2788C2CD1ADD9CE600CC2707 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		2788C2CE1ADD9CE600CC2707 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		2788C2CF1ADD9CE600CC2707 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		2788C2D01ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		2788C2D11ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		2788C2D21ADD9CE600CC2707 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		2788C2D31ADD9CE600CC2707 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		2788C2D41ADD9CE600CC2707 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		2788C2E11ADD9E8600CC2707 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2788C2E31ADD9E9100CC2707 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2788C2E51ADD9E9E00CC2707 /* EducationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationViewController.swift; sourceTree = "<group>"; };
+		2788C42B1AE0760D00CC2707 /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		2788C42C1AE0760D00CC2707 /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		2788C42D1AE0760D00CC2707 /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		2788C42E1AE0760D00CC2707 /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		2788C42F1AE0760D00CC2707 /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		2788C4301AE0760D00CC2707 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		2788C4971AE48E3D00CC2707 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SCLAlertView.swift; path = ../SCLAlertView.swift; sourceTree = "<group>"; };
+		27BC837E1AE568FB005F5112 /* WWDCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WWDCViewController.swift; sourceTree = "<group>"; };
+		27BC83801AE5A039005F5112 /* AppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsViewController.h; sourceTree = "<group>"; };
+		27BC83811AE5A039005F5112 /* AppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsViewController.m; sourceTree = "<group>"; };
+		27BC83831AE5AC80005F5112 /* AppsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppsTableViewCell.h; sourceTree = "<group>"; };
+		27BC83841AE5AC80005F5112 /* AppsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppsTableViewCell.m; sourceTree = "<group>"; };
+		27BC83861AE61686005F5112 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		27BC83871AE61686005F5112 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		27BC83891AE6B537005F5112 /* ScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +119,8 @@
 				2788C2A11ADD7B1A00CC2707 /* Stasys Meclazcke */,
 				2788C2BB1ADD7B1B00CC2707 /* Stasys MeclazckeTests */,
 				2788C2A01ADD7B1A00CC2707 /* Products */,
+				2788C2CB1ADD9CE600CC2707 /* PureLayout */,
+				2788C42A1AE0760D00CC2707 /* FBShimmering */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +144,25 @@
 				2788C2AF1ADD7B1A00CC2707 /* Images.xcassets */,
 				2788C2B11ADD7B1A00CC2707 /* LaunchScreen.xib */,
 				2788C2A21ADD7B1A00CC2707 /* Supporting Files */,
+				2788C2C81ADD9C4900CC2707 /* Stasys Meclazcke-Bridging-Header.h */,
+				2788C2C91ADD9C4A00CC2707 /* PageViewController.swift */,
+				2788C2E31ADD9E9100CC2707 /* FirstViewController.swift */,
+				27BC83801AE5A039005F5112 /* AppsViewController.h */,
+				27BC83811AE5A039005F5112 /* AppsViewController.m */,
+				27BC83831AE5AC80005F5112 /* AppsTableViewCell.h */,
+				27BC83841AE5AC80005F5112 /* AppsTableViewCell.m */,
+				27BC83861AE61686005F5112 /* DetailViewController.h */,
+				27BC83871AE61686005F5112 /* DetailViewController.m */,
+				273F26811AE884C80043AFAE /* AppPhotoViewController.swift */,
+				2788C2E11ADD9E8600CC2707 /* AboutViewController.swift */,
+				273F26831AE986520043AFAE /* ElevationViewController.h */,
+				273F26841AE986520043AFAE /* ElevationViewController.m */,
+				2788C2E51ADD9E9E00CC2707 /* EducationViewController.swift */,
+				273F26861AE9BABF0043AFAE /* MapViewController.swift */,
+				27BC837E1AE568FB005F5112 /* WWDCViewController.swift */,
+				273F26881AE9E0A80043AFAE /* PreviewViewController.swift */,
+				27BC83891AE6B537005F5112 /* ScoreViewController.swift */,
+				2788C4971AE48E3D00CC2707 /* SCLAlertView.swift */,
 			);
 			path = "Stasys Meclazcke";
 			sourceTree = "<group>";
@@ -117,6 +191,35 @@
 				2788C2BD1ADD7B1B00CC2707 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2788C2CB1ADD9CE600CC2707 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				2788C2CC1ADD9CE600CC2707 /* ALView+PureLayout.h */,
+				2788C2CD1ADD9CE600CC2707 /* ALView+PureLayout.m */,
+				2788C2CE1ADD9CE600CC2707 /* NSArray+PureLayout.h */,
+				2788C2CF1ADD9CE600CC2707 /* NSArray+PureLayout.m */,
+				2788C2D01ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.h */,
+				2788C2D11ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.m */,
+				2788C2D21ADD9CE600CC2707 /* PureLayout+Internal.h */,
+				2788C2D31ADD9CE600CC2707 /* PureLayout.h */,
+				2788C2D41ADD9CE600CC2707 /* PureLayoutDefines.h */,
+			);
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		2788C42A1AE0760D00CC2707 /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				2788C42B1AE0760D00CC2707 /* FBShimmering-Prefix.pch */,
+				2788C42C1AE0760D00CC2707 /* FBShimmering.h */,
+				2788C42D1AE0760D00CC2707 /* FBShimmeringLayer.h */,
+				2788C42E1AE0760D00CC2707 /* FBShimmeringLayer.m */,
+				2788C42F1AE0760D00CC2707 /* FBShimmeringView.h */,
+				2788C4301AE0760D00CC2707 /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +322,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2788C2D71ADD9CE600CC2707 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				2788C2AB1ADD7B1A00CC2707 /* ViewController.m in Sources */,
+				273F26851AE986520043AFAE /* ElevationViewController.m in Sources */,
+				27BC83881AE61686005F5112 /* DetailViewController.m in Sources */,
+				2788C4981AE48E3D00CC2707 /* SCLAlertView.swift in Sources */,
 				2788C2A81ADD7B1A00CC2707 /* AppDelegate.m in Sources */,
+				2788C4321AE0760D00CC2707 /* FBShimmeringView.m in Sources */,
+				27BC83851AE5AC80005F5112 /* AppsTableViewCell.m in Sources */,
+				2788C2E21ADD9E8600CC2707 /* AboutViewController.swift in Sources */,
 				2788C2A51ADD7B1A00CC2707 /* main.m in Sources */,
+				273F26821AE884C80043AFAE /* AppPhotoViewController.swift in Sources */,
+				27BC837F1AE568FB005F5112 /* WWDCViewController.swift in Sources */,
+				2788C2E41ADD9E9100CC2707 /* FirstViewController.swift in Sources */,
+				273F26871AE9BABF0043AFAE /* MapViewController.swift in Sources */,
+				27BC83821AE5A039005F5112 /* AppsViewController.m in Sources */,
+				273F26891AE9E0A90043AFAE /* PreviewViewController.swift in Sources */,
+				2788C2D51ADD9CE600CC2707 /* ALView+PureLayout.m in Sources */,
+				2788C2D61ADD9CE600CC2707 /* NSArray+PureLayout.m in Sources */,
+				2788C2E61ADD9E9E00CC2707 /* EducationViewController.swift in Sources */,
+				2788C4311AE0760D00CC2707 /* FBShimmeringLayer.m in Sources */,
+				2788C2CA1ADD9C4A00CC2707 /* PageViewController.swift in Sources */,
+				27BC838A1AE6B537005F5112 /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +469,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Stasys Meclazcke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stasys Meclazcke/Stasys Meclazcke-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -357,9 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = "Stasys Meclazcke/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stasys Meclazcke/Stasys Meclazcke-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -416,6 +547,7 @@
 				2788C2C41ADD7B1B00CC2707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2788C2C51ADD7B1B00CC2707 /* Build configuration list for PBXNativeTarget "Stasys MeclazckeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +556,7 @@
 				2788C2C71ADD7B1B00CC2707 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PureLayout.h"
 
-@interface ViewController ()
+@interface ViewController () <UIScrollViewDelegate>
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
