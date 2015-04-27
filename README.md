@@ -1,5 +1,5 @@
 # 2015-WWDC-Scholarship-App
-<p align="center">
+<p >
   <img src="http://i.imgur.com/6Hqrq9j.png" alt="Image of the app" width="207" height="368">
 </p>
 <br>
