@@ -1,2 +1,3 @@
 # 2015-WWDC-Scholarship-App
-https://www.youtube.com/watch?v=Q05r7ALxmZY
+![Image of the app](http://i.imgur.com/6Hqrq9j.png)
+Check out the app here: https://www.youtube.com/watch?v=Q05r7ALxmZY
